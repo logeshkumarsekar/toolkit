@@ -49,7 +49,7 @@ RUN cd /source/client && npm install && bower install --allow-root --config.inte
 
 # Envs
 ENV TEST_TYPE "spec"
-ENV DOMAIN "http://172.17.42.1"
+ENV DOMAIN "http://172.31.14.109"
 ENV DISPLAY ":1.0"
 ENV DB_HOST localhost
 
